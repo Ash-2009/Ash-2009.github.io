@@ -1,0 +1,248 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+/* Add CSS styles for your web site here and use them in index.html. */
+/* General Styles */
+
+#first-heading {
+    color: #fff;
+     font-family: "SixtyFour", sans-serif;
+     text-align: center;
+     margin-bottom: 30px;
+}
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+hr {
+border: 1px solid white; /* Horizontal rule style */
+background-color: #fff;
+display: block;
+margin: auto;
+height: 2px;
+}
+
+/* Navigation Bar */
+.topnav {
+overflow: hidden;
+display: flex;
+justify-content: right;
+position: relative;
+font-size: large;
+border: #fff;
+}
+
+.topnav a {
+float: left;
+display:block;
+color: rgb(176, 168, 168); /* White text */
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+ font-weight: 300;
+font-family: "Bitcount Prop Single", system-ui;
+ 
+
+transition: color 0.6s ease;
+
+}
+
+.topnav a:hover { 
+color: white;
+
+}
+
+
+.topnav a.active {
+background-color: #444; /* Slightly lighter gray for active link */
+color: white; /* Gold text for active link */
+}
+
+/* Content Section */
+.content {
+padding: 20px;
+}
+
+
+
+
+/* Table Styling */
+table {
+width: 95%;
+border: 2px solid #fff;
+margin: 20px 0;
+background: linear-gradient(to bottom, black, #111);/* Dark background for table */
+color: #fff; /* White text for table */
+transition: 0.5s ease;
+width: 90%;
+margin: auto;
+
+
+
+}
+
+
+table th, table td {
+border: 1px solid white;
+text-align: center;
+padding: 10px;
+}
+
+table:hover {
+    transform: perspective(500px) rotateX(10deg);
+}
+
+table th {
+background: linear-gradient(to bottom, black, white); /* Darker header row */
+color: white; /* Gold text for header */
+border: 1px solid black;
+}
+table td {
+    border: 1px solid white;
+    background-color: black;
+
+}
+table td:hover {
+  box-shadow: 0 0 20px #fff;
+  transition: 0.3s ease;
+}
+
+.table-link{
+color: white;/* Light teal for links in the table */
+}
+.table-link:hover {
+    font-style: italic;
+    text-decoration: Underline ;
+    text-decoration-color: black;
+
+    
+}
+.pumpkin:hover {
+    background-color: rgba(255,255,255, 0.5);
+    color: black;
+}
+
+h1, #p1{
+text-align: left;
+color: #fff;
+
+}
+
+html, body {
+    background-image:
+    linear-gradient(to bottom,
+      black 0px,
+      black 300px,
+      transparent 400px),
+    url("images/black.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: 1900px;
+}
+.skill {
+    background-color: rgba(0,0,0, 0.5);
+    margin-left: 15px;
+    margin-right: 15px;
+    border:  solid black;
+    border-radius: 10px;
+    outline: 2px solid white;
+    overflow: hidden;
+}
+
+
+.heading{
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-family:"Orbitron", sans-serif;
+    font-style:italic;
+    font-size: 40px;
+    border:  solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.2);
+    outline: 2px solid white;
+    
+}
+#skill-list {
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+
+
+}
+
+
+#aboutmep {
+    font-family: "Outfit", sans-serif;
+    color:white;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+
+ #float img {
+    width: 200px;
+    display: none;
+    z-index: 10;
+    position: relative;
+    
+}
+
+
+#flower {
+    display: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    z-index: 1;
+    position:relative;
+}
+
+ #ab:hover #float img {
+    display: block;
+    float: left;
+    z-index: 10;
+}
+#ab:hover #flower {
+    display: block;
+    margin-top: 5px;
+    padding-right: 10px;
+    font-family: "Meow Script", cursive;
+    font-weight: 500;
+    font-size: 30px;
+    color: brown;
+    background-color: #fff;
+    position: relative;
+    left: 10px;
+    top: 37px;
+
+    z-index: 1;
+    
+    
+    
+}
+
+#ab:hover html,body {
+    background-size: 2500px;
+}
+
+
+#mail {
+    font-family: "Outfit", sans-serif;
+    color:white;
+}
+
+#mail a {
+    color: #fff;
+}
+
+#mail:hover {
+ text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+
+
