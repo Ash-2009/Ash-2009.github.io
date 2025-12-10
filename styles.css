@@ -135,7 +135,7 @@ html, body {
       black 0px,
       black 300px,
       transparent 400px),
-    url("images/black.jpg");
+    url("black.jpg");
     background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
