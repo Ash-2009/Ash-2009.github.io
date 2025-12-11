@@ -36,9 +36,9 @@ background-color: #444; /* Slightly lighter gray for active link */
 color: white; /* Gold text for active link */
 }
 
-html  {
+html,body  {
     background-image: url(black.jpg);
-    background-size: 1000px;
+    background-size: 1800px;
 }
 
 img {
