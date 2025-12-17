@@ -1,0 +1,92 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+}
+
+
+.topnav {
+overflow: hidden;
+display: flex;
+justify-content: flex-end;
+position: relative;
+z-index: 2;
+font-size: large;
+border: #fff;
+background-color: #fff;
+
+}
+
+.topnav a {
+float: left;
+color: rgb(176, 168, 168); /* White text */
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: 300;
+font-family: "Bitcount Prop Single", system-ui;
+ 
+
+transition: color 0.3s ease;
+
+}
+
+.topnav a:hover { 
+color: black;
+
+}
+
+
+.topnav a.active {
+color: black; /* Gold text for active link */
+}
+
+#vid {
+overflow: hidden;
+}
+#background {
+   width: 100%;
+}
+
+#background video, img {
+  display:block;     /* removes inline gaps */
+  width: 100%;         /* same width = glued */
+  margin: 0;
+  padding: 0;
+  height: auto; 
+  z-index: 1;
+
+
+}
+
+#background img {
+  filter: blur(3px);
+}
+
+#link {
+  position: absolute; /* Position relative to container */
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* center*/
+  z-index: 10;    
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "BBH Bartle", sans-serif;
+  font-style: normal;
+
+}
+
+#link:hover {
+    background-color: rgba(237, 166, 250,0.2);
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    box-shadow: 0 6px 20px rgba(237, 166, 250, 0.1), 0 0 10px rgba(255, 255, 255, 0.1);
+
+}
