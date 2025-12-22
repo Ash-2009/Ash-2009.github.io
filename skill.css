@@ -1,0 +1,126 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+/* Add CSS styles for your web site here and use them in index.html. */
+/* Add CSS styles for your web site here and use them in index.html. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+background-color: black;
+}
+
+
+.topnav {
+overflow: hidden;
+display: flex;
+justify-content: flex-end;
+position: relative;
+z-index: 2;
+font-size: large;
+border: #fff;
+background-color: #fff;
+
+}
+
+.topnav a {
+float: left;
+color: rgb(176, 168, 168); /* White text */
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: 300;
+font-family: "Bitcount Prop Single", system-ui;
+ 
+
+transition: color 0.3s ease;
+
+}
+
+.topnav a:hover { 
+color: black;
+
+}
+
+
+.topnav a.active {
+color: black; /* Gold text for active link */
+}
+
+.skill {
+    color: white;
+   font-family: "Sekuya", system-ui;
+
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+#js {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.jsvid {  
+   text-align: center;
+   margin-top: 50px;
+}
+
+.jsvid video {
+    display: inline-block;
+    width: 300px; 
+}
+
+#confetti {
+    color: white;
+    text-align: center;
+    font-family: "Coral Pixels", serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+#snow {
+    font-family: "Mystery Quest", system-ui;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.link a {
+    color: #fff;
+    font-size: 30px;
+    border:transparent;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-decoration: none;
+}
+.link {
+    text-align: center;
+}
+.link a:hover {
+    background-color: rgba(209, 21, 21, 0.217);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-style: italic;
+}
+
+.html {
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.html:hover {
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
