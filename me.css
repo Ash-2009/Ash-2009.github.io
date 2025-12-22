@@ -1,0 +1,75 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+/* Add CSS styles for your web site here and use them in index.html. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+}
+
+
+.topnav {
+overflow: hidden;
+display: flex;
+justify-content: flex-end;
+position: relative;
+z-index: 2;
+font-size: large;
+border: #fff;
+background-color: #fff;
+
+}
+
+.topnav a {
+float: left;
+color: rgb(176, 168, 168); /* White text */
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: 300;
+font-family: "Bitcount Prop Single", system-ui;
+ 
+
+transition: color 0.3s ease;
+
+}
+
+.topnav a:hover { 
+color: black;
+
+}
+
+
+.topnav a.active {
+color: black; /* Gold text for active link */
+}
+
+
+p {
+    color: black;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+}
+.text {
+    margin-right: 120px;
+    position: fixed;
+}
+
+
+body,html {
+    position: relative;
+    background-image: url(images/IMG_3128.JPG);
+    background-size: cover;
+    z-index: 0;
+  background-repeat: no-repeat;
+
+
+}
