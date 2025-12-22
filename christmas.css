@@ -1,0 +1,89 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.topnav {
+overflow: hidden;
+display: flex;
+justify-content: flex-end;
+position: relative;
+z-index: 2;
+font-size: large;
+border: black;
+background-color: black;
+
+}
+
+.topnav a {
+float: left;
+color: rgb(176, 168, 168); /* White text */
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: 300;
+font-family: "Bitcount Prop Single", system-ui;
+ 
+
+transition: color 0.3s ease;
+
+}
+
+.topnav a:hover { 
+color: white;
+
+}
+
+
+.topnav a.active {
+color: white; /* Gold text for active link */
+}
+
+img {
+        margin-bottom:20px;
+        transition: 0.2s ease;
+    }
+    img:hover {
+      transform:scale(1.1);
+    }
+    
+ .top{
+    background-color: rgb(241, 203, 210);
+ }
+ .bottom{
+    background-color:paleturquoise;
+ }
+ .black {
+  background-color: black;
+ }
+ 
+    a {
+        font-size: 20px;
+
+    }
+    #red:hover {
+        color:brown;
+        font-weight: bold; 
+    }
+    #blue:hover {
+      color: blue; /* Color on hover */
+      font-weight: bold;
+    }
+    #pink:hover {
+      color:mediumvioletred;
+      font-weight: bold;
+    }
+    #starlight:hover {
+      color:bisque;
+      font-weight:bold;
+    }
+    
+   
+    h3{
+        font-style: italic;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    
